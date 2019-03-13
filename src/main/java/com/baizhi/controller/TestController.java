@@ -16,6 +16,8 @@ public class TestController {
     @RequestMapping("test")
     public String test(){
         List<Admin> list = (List<Admin>) asi.queryall();
+        System.out.println("push yixia");
         return "index";
+
     }
 }
